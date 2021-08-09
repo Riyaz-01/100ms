@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Riyaz-01/100ms/static/css/main.a3b5d17a.chunk.css",
-    "main.js": "/Riyaz-01/100ms/static/js/main.88bd1361.chunk.js",
-    "main.js.map": "/Riyaz-01/100ms/static/js/main.88bd1361.chunk.js.map",
-    "runtime-main.js": "/Riyaz-01/100ms/static/js/runtime-main.b1ab884b.js",
-    "runtime-main.js.map": "/Riyaz-01/100ms/static/js/runtime-main.b1ab884b.js.map",
-    "static/js/2.93a492af.chunk.js": "/Riyaz-01/100ms/static/js/2.93a492af.chunk.js",
-    "static/js/2.93a492af.chunk.js.map": "/Riyaz-01/100ms/static/js/2.93a492af.chunk.js.map",
-    "index.html": "/Riyaz-01/100ms/index.html",
-    "static/css/main.a3b5d17a.chunk.css.map": "/Riyaz-01/100ms/static/css/main.a3b5d17a.chunk.css.map",
-    "static/js/2.93a492af.chunk.js.LICENSE.txt": "/Riyaz-01/100ms/static/js/2.93a492af.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Riyaz-01/100ms/static/media/breakingBadFont.3513760c.otf",
-    "static/media/cover.afb19f7e.jpg": "/Riyaz-01/100ms/static/media/cover.afb19f7e.jpg",
-    "static/media/search.01572229.png": "/Riyaz-01/100ms/static/media/search.01572229.png"
+    "main.css": "/100ms/static/css/main.91966c76.chunk.css",
+    "main.js": "/100ms/static/js/main.88bd1361.chunk.js",
+    "main.js.map": "/100ms/static/js/main.88bd1361.chunk.js.map",
+    "runtime-main.js": "/100ms/static/js/runtime-main.72e83fc6.js",
+    "runtime-main.js.map": "/100ms/static/js/runtime-main.72e83fc6.js.map",
+    "static/js/2.93a492af.chunk.js": "/100ms/static/js/2.93a492af.chunk.js",
+    "static/js/2.93a492af.chunk.js.map": "/100ms/static/js/2.93a492af.chunk.js.map",
+    "index.html": "/100ms/index.html",
+    "static/css/main.91966c76.chunk.css.map": "/100ms/static/css/main.91966c76.chunk.css.map",
+    "static/js/2.93a492af.chunk.js.LICENSE.txt": "/100ms/static/js/2.93a492af.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/100ms/static/media/breakingBadFont.3513760c.otf",
+    "static/media/cover.afb19f7e.jpg": "/100ms/static/media/cover.afb19f7e.jpg",
+    "static/media/search.01572229.png": "/100ms/static/media/search.01572229.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1ab884b.js",
+    "static/js/runtime-main.72e83fc6.js",
     "static/js/2.93a492af.chunk.js",
-    "static/css/main.a3b5d17a.chunk.css",
+    "static/css/main.91966c76.chunk.css",
     "static/js/main.88bd1361.chunk.js"
   ]
 }
