@@ -1,8 +1,11 @@
+@font-face {
+  font-family: "breaking-bad";
+  src: url("assets/breakingBadFont.otf");
+}
 body {
   margin: 0;
   font-family: "nunito";
 }
-
 code {
   font-family: "nunito";
 }

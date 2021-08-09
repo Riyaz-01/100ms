@@ -1,2 +1,32 @@
+@mixin hoverScale($scale: 1.02) {
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 250ms ease-out;
+  &:hover {
+    transition: transform 50ms;
+    transform: scale($scale) translateY(-1px);
+  }
+}
 .home {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  .cards {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    .card {
+      margin: 30px;
+      @include hoverScale();
+    }
+    @media screen and (max-width: 800px) {
+      justify-content: center;
+      .card {
+        margin: 40px;
+      }
+    }
+  }
 }
