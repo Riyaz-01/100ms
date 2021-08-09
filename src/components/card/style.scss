@@ -6,7 +6,9 @@
   width: 330px;
   margin-top: 60px !important;
   border-radius: 16px;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(255, 255, 255, 0.8);
+  // background-size: cover;
+
   .img {
     box-shadow: 1px 1px 5px rgb(128, 128, 128);
     min-width: 120px;
@@ -18,29 +20,14 @@
     top: -60px;
     left: 20px;
   }
-  .status {
-    margin: 20px;
-    position: absolute;
-    right: 0;
-    width: 140px;
-    // height: 24px;
-    line-height: 24px;
-    border-radius: 11px;
-    text-align: center;
-    padding: 3px 8px;
-    font-weight: 600;
-    color: white;
-    letter-spacing: 1px;
-    font-size: 14px;
-    box-sizing: border-box;
-  }
-  .info {
+  .cardInfo {
     padding: 20px;
     margin-top: 55px;
     .name {
       font-size: 22px;
       margin-bottom: 12px;
-      font-weight: 600;
+      font-weight: 700;
+      color: rgb(0, 104, 31);
     }
     .bdayInfo,
     .workInfo {
@@ -52,7 +39,7 @@
       }
       div {
         font-size: 14px;
-        color: rgb(92, 92, 92);
+        color: rgb(58, 58, 58);
       }
     }
   }

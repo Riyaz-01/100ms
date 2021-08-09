@@ -1,10 +1,15 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import URL from "./URL";
+import useFetchQuotes from "./fetchQuotes";
 
 const filterData = (data, query) => {
   if (query === "") return data;
-  let temp = data.filter((item) => item.name.toLowerCase().includes(query));
+  let temp = data.filter(
+    (item) =>
+      item.name.toLowerCase().includes(query) ||
+      item.nickname.toLowerCase().includes(query)
+  );
   return temp;
 };
 

@@ -11,6 +11,51 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  min-height: 100vh;
+  .search {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+    .icon {
+      padding: 8px;
+    }
+    input {
+      padding: 8px 12px;
+      width: 700px;
+      outline: none;
+      border: none;
+      font-size: 15px;
+    }
+  }
+  .pagination {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    .paginationItem {
+      cursor: pointer;
+      padding: 5px 13px;
+      font-size: 20px;
+      background-color: rgba(0, 128, 0, 0.418);
+      border: solid 3px black;
+      margin-right: 20px;
+    }
+    .arrow {
+      cursor: pointer;
+      font-size: 30px;
+      margin-right: 20px;
+      font-weight: 900;
+      color: white;
+    }
+  }
   .cards {
     max-width: 1200px;
     margin: auto;
@@ -19,13 +64,21 @@
     justify-content: space-between;
     margin-top: 70px;
     .card {
-      margin: 30px;
+      margin: 50px 30px;
       @include hoverScale();
     }
-    @media screen and (max-width: 800px) {
+  }
+  @media screen and (max-width: 800px) {
+    .cards {
       justify-content: center;
-      .card {
-        margin: 40px;
+    }
+    .card {
+      margin: 40px;
+    }
+    .search {
+      width: 300px !important;
+      input {
+        box-sizing: border-box;
       }
     }
   }
