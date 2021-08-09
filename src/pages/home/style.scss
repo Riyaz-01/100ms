@@ -55,6 +55,9 @@
       font-weight: 900;
       color: white;
     }
+    @media screen and (max-width: 800px) {
+      transform: scale(0.8);
+    }
   }
   .cards {
     max-width: 1200px;
