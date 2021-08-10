@@ -4,8 +4,8 @@ import useFetchCharacter from "../../api/fetchCharacter";
 import Loading from "../../components/loading";
 import Error from "../../components/error";
 import Status from "../../components/status";
-import cake from "../../assets/cake.png";
-import work from "../../assets/work.png";
+import cake from "../../assets/cakeWhite.png";
+import work from "../../assets/workWhite.png";
 import useFetchQuotes from "../../api/fetchQuotes";
 
 const Details = (props) => {
@@ -16,7 +16,7 @@ const Details = (props) => {
   const { quotes, quoteError, quoteLoading } = useFetchQuotes(name);
 
   const img = loading ? "" : `url(${data.img})`;
-  const iconSize = { width: "35px", height: "35px" };
+  const iconSize = { width: "20px", height: "20px" };
 
   return (
     <div

@@ -5,7 +5,7 @@ import work from "../../assets/work.png";
 import Status from "../status";
 
 const Card = ({ data }) => {
-  const iconSize = { width: "35px", height: "35px" };
+  const iconSize = { width: "25px", height: "25px" };
   return (
     <div className="card">
       <div
