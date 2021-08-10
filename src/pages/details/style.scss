@@ -77,8 +77,9 @@
 @media screen and (max-width: 1000px) {
   .detailsContainer {
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
     height: auto;
+    border-radius: 10px;
   }
   .quoteWrapper {
     width: 100%;
